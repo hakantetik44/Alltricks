@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670574934698' stop='1670574960209'>
+    <name>Alltricks</name>
+    <title>Alltricks</title>
+    <test-cases>
+        <test-case start='1670574934698' status='passed' stop='1670574945416'>
+            <name>Accéder au site web de Alltricks</name>
+            <title>Accéder au site web de Alltricks</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670574945417' status='passed' stop='1670574960207'>
+            <name>Rechercher un produit</name>
+            <title>Rechercher un produit</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

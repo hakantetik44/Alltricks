@@ -1,0 +1,5 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"passed","Sat Dec 10 11:25:49 CET 2022","Sat Dec 10 11:26:08 CET 2022","19713","","Alltricks","","Alltricks","Accéder au site web de Alltricks","Accéder au site web de Alltricks",""
+"passed","Sat Dec 10 11:26:08 CET 2022","Sat Dec 10 11:26:40 CET 2022","31838","","Alltricks","","Alltricks","Rechercher un produit","Rechercher un produit",""
+"passed","Thu Dec 08 21:39:50 CET 2022","Thu Dec 08 21:39:58 CET 2022","8195","","trusker","","trusker","Vérifier que les liens DEVENIR TRUSKER et TRUSK BUSINESS fonctionnent et se dirigent vers la bonne page.","Vérifier que les liens DEVENIR TRUSKER et TRUSK BUSINESS fonctionnent et se dirigent vers la bonne page.",""
+"passed","Thu Dec 08 21:39:37 CET 2022","Thu Dec 08 21:39:50 CET 2022","13004","","trusker","","trusker","Accéder au site web de Trusk","Accéder au site web de Trusk",""

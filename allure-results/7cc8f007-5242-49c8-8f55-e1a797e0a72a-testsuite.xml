@@ -1,0 +1,23 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670508288290' stop='1670508309894'>
+    <name>trusker</name>
+    <title>trusker</title>
+    <test-cases>
+        <test-case start='1670508288290' status='passed' stop='1670508301347'>
+            <name>Accéder au site web de Trusk</name>
+            <title>Accéder au site web de Trusk</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+        <test-case start='1670508301348' status='passed' stop='1670508309894'>
+            <name>Vérifier que les liens DEVENIR TRUSKER et TRUSK BUSINESS fonctionnent et se dirigent vers la bonne page.</name>
+            <title>Vérifier que les liens DEVENIR TRUSKER et TRUSK BUSINESS fonctionnent et se dirigent vers la bonne page.</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
