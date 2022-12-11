@@ -1,0 +1,75 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1670754383842' stop='1670754464725'>
+    <name>Alltricks</name>
+    <title>Alltricks</title>
+    <test-cases>
+        <test-case start='1670754383843' status='failed' stop='1670754430230'>
+            <name>Accéder au site web de Alltricks</name>
+            <title>Accéder au site web de Alltricks</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 20000ms: Expected to find content: 'Accepter &amp; Fermer' but never did.</message>
+                <stack-trace>AssertionError: Timed out retrying after 20000ms: Expected to find content: 'Accepter &amp; Fermer' but never did.
+                    at Context.eval (https://www.google.com/__cypress/tests?p=cypress\e2e\alltricks.feature:9679:12)
+                    at Registry.runStepDefininition (https://www.google.com/__cypress/tests?p=cypress\e2e\alltricks.feature:8336:48)
+                    at Context.eval (https://www.google.com/__cypress/tests?p=cypress\e2e\alltricks.feature:9119:48)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1670754430232' status='broken' stop='1670754464594'>
+            <name>Rechercher un produit</name>
+            <title>Rechercher un produit</title>
+            <labels/>
+            <parameters/>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>Timed out retrying after 20000ms: `cy.type()` failed because this element:
+                
+                `&lt;input type="text" name="s" placeholder="Rechercher un produit, une marque..." class="search tt-input" value="" kameleoonlistener-78w5="true" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top;">`
+                
+                is being covered by another element:
+                
+                `&lt;div class="locale-redirect-popin_background" data-action="click->localeRedirectPopin#closeBackground">...&lt;/div>`
+                
+                Fix this problem, or use {force: true} to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with</message>
+                <stack-trace>CypressError: Timed out retrying after 20000ms: `cy.type()` failed because this element:
+                
+                `&lt;input type="text" name="s" placeholder="Rechercher un produit, une marque..." class="search tt-input" value="" kameleoonlistener-78w5="true" autocomplete="off" spellcheck="false" dir="auto" style="position: relative; vertical-align: top;">`
+                
+                is being covered by another element:
+                
+                `&lt;div class="locale-redirect-popin_background" data-action="click->localeRedirectPopin#closeBackground">...&lt;/div>`
+                
+                Fix this problem, or use {force: true} to disable error checking.
+                
+                https://on.cypress.io/element-cannot-be-interacted-with
+                    at ensureIsDescendent (https://www.google.com/__cypress/runner/cypress_runner.js:133280:76)
+                    at ensureDescendents (https://www.google.com/__cypress/runner/cypress_runner.js:133337:5)
+                    at ensureDescendentsAndScroll (https://www.google.com/__cypress/runner/cypress_runner.js:133344:14)
+                    at ensureElIsNotCovered (https://www.google.com/__cypress/runner/cypress_runner.js:133476:5)
+                    at runAllChecks (https://www.google.com/__cypress/runner/cypress_runner.js:133670:52)
+                    at retryActionability (https://www.google.com/__cypress/runner/cypress_runner.js:133709:16)
+                    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:11327:23)
+                    at Promise.attempt.Promise.try (https://www.google.com/__cypress/runner/cypress_runner.js:8601:29)
+                    at whenStable (https://www.google.com/__cypress/runner/cypress_runner.js:151463:65)
+                    at &lt;unknown> (https://www.google.com/__cypress/runner/cypress_runner.js:150871:14)
+                    at tryCatcher (https://www.google.com/__cypress/runner/cypress_runner.js:11327:23)
+                    at Promise._settlePromiseFromHandler (https://www.google.com/__cypress/runner/cypress_runner.js:9262:31)
+                    at Promise._settlePromise (https://www.google.com/__cypress/runner/cypress_runner.js:9319:18)
+                    at Promise._settlePromise0 (https://www.google.com/__cypress/runner/cypress_runner.js:9364:10)
+                    at Promise._settlePromises (https://www.google.com/__cypress/runner/cypress_runner.js:9444:18)
+                    at Promise._fulfill (https://www.google.com/__cypress/runner/cypress_runner.js:9388:18)
+                    at &lt;unknown> (https://www.google.com/__cypress/runner/cypress_runner.js:11002:46)
+                From Your Spec Code:
+                    at Context.eval (https://www.google.com/__cypress/tests?p=cypress\e2e\alltricks.feature:9684:82)
+                    at Registry.runStepDefininition (https://www.google.com/__cypress/tests?p=cypress\e2e\alltricks.feature:8336:48)
+                    at Context.eval (https://www.google.com/__cypress/tests?p=cypress\e2e\alltricks.feature:9119:48)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>
